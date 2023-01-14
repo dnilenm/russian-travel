@@ -1,0 +1,10 @@
+.cover__background{
+    max-width: 100%;
+    min-height: 740px;
+    background-color: #2A2C2F; 
+    background-image: url(../../../sprint-3-images/cover-trains.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    z-index: 1;
+    grid-area: 1/1/2/2;
+}
