@@ -1,6 +1,6 @@
 .cover__text-block{
     margin: auto;
-    width: 560px;
+    max-width: 560px;
     z-index: 3;
     grid-area: 1/1/2/2;
 }

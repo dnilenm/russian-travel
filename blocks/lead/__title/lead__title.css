@@ -3,8 +3,34 @@
     line-height: 1.0204;
     font-weight: 900;
     max-width: 720px;
-    box-sizing: border-box;
     text-align: center;
     margin: 0 auto;
-    
+}
+
+@media screen and (max-width:730px) {
+    .lead__title{
+        font-size: 5em;
+    } 
+}
+@media screen and (max-width:630px) {
+    .lead__title{
+        font-size: 4em;
+    }   
+}
+@media screen and (max-width:530px) {
+        .lead__title{
+            font-size: 3em;
+        }   
+}
+
+@media screen and (max-width:400px) {
+    .lead__title{
+        font-size: 2.5em;
+    }   
+}
+
+@media screen and (max-width:200px) {
+    .lead__title{
+        font-size: 1.5em;
+    }  
 }

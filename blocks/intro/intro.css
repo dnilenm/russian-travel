@@ -3,3 +3,20 @@
     margin: 92px 100px;
     font-size: 16px;
 }
+@media screen and (max-width:1024px) {
+    .intro{
+        margin:92px 0;
+    }   
+}
+@media screen and (max-width:768px) {
+    .intro{
+        margin:88px 0;
+        max-width: 100%;
+    }   
+}
+@media screen and (max-width:320px) {
+    .intro{
+        margin:64px 0;
+        
+    }   
+}
